@@ -2,17 +2,6 @@ body {
   background-color: rgb(54, 54, 54);
 }
 
-head {
-  background-color: rgb(54, 54, 54);
-}
-
-.Testdive {
-  background-color: red;
-  vertical-align: auto;
-  height: 20%;
-}
-
-.Testdive h1 {
-  color: white;
-  align-self: auto;
+.container img{
+    width: 8%;
 }
