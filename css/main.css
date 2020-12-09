@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+body {
+  background-image: linear-gradient(to right, #090e4e, #43003e);
+  font-family: "Quicksand";
+}
