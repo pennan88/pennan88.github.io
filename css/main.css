@@ -4,4 +4,7 @@ body {
 
 .container img{
     width: 8%;
+    display: block;
+    margin-left: auto;
+    width: 3em;
 }
