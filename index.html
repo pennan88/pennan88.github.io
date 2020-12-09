@@ -3,19 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AlexanderFagrelius</title>
+    <title>Alexander Fagrelius</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
+
   <body>
-    <div class="container">
-      <ul>
-        <li>
-          <a href="#">Home</a>
-          <a href="#">Resume</a>
-          <a href="#">About me</a>
-          <a href="#">Projects</a>
-        </li>
-      </ul>
+    <div class="nav-container">
+      <header>
+        <a href="index.html"
+          ><img src="images/Home.svg" class="home" alt="Home"
+        /></a>
+
+        <nav>
+          <a href="#" class="hide-desktop">
+            <img src="images/menu.svg" alt="HamMenu" class="menu" />
+          </a>
+          <ul class="show-desktop hide-mobile">
+            <li class="exit-btn hide-desktop">
+              <img src="images/exit.svg" alt="exit" />
+            </li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Project</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section>
+        <h1>Alexander Fagrelius</h1>
+        <h2>Web Developer</h2>
+      </section>
     </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="container">
+          <ul class="footer-pictures">
+            <li>
+              <a href="#"
+                ><img src="images/010-linkedin.svg" alt="linkedinLogo"
+              /></a>
+
+              <a href="#"
+                ><img src="images/001-facebook.svg" alt="linkedinLogo"
+              /></a>
+
+              <a href="#"
+                ><img src="images/011-instagram.svg" alt="linkedinLogo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
