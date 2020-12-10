@@ -32,6 +32,12 @@ header {
           justify-content: space-between;
 }
 
+header a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
 .hide-mobile {
   display: none;
 }

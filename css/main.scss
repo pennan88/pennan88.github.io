@@ -25,6 +25,11 @@ ul {
 header {
   display: flex;
   justify-content: space-between;
+  a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+  }
 }
 
 .hide-mobile {
@@ -160,5 +165,5 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 1200px) {
 
-  
+
 }
