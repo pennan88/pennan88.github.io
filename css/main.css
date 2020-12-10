@@ -17,12 +17,6 @@ ul {
   padding: 1em;
 }
 
-.home {
-  width: 100px;
-  margin: 0;
-  padding: 0;
-}
-
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,31 +26,31 @@ header {
           justify-content: space-between;
 }
 
-header a {
-  color: white;
-  font-size: 30px;
-  text-decoration: none;
-}
-
 .hide-mobile {
   display: none;
 }
 
+.home {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
 .menu {
-  width: 35px;
+  width: 25px;
   margin-top: 25%;
 }
 
 section {
   text-align: center;
-  padding-top: 45%;
+  padding-top: 50%;
 }
 
 section h1,
 section p {
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .footer-container {
@@ -70,13 +64,13 @@ section p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 10%;
+  width: 5%;
   padding: 2% 10%;
 }
 
 nav ul {
   position: fixed;
-  width: 60%;
+  width: 50%;
   top: 0;
   right: 0;
   text-align: left;
