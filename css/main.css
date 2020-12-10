@@ -44,26 +44,18 @@ header {
 section {
   margin-top: 70%;
   color: white;
+  text-align: center;
 }
 
-.footer-container {
-  position: absolute;
-  height: 100px;
-}
-
-ul.footer-pictures {
+.footer-pictures {
+  position: fixed;
   bottom: 0;
-  position: absolute;
-  left: 50%;
+  text-align: center;
 }
 
-ul.footer-pictures img {
+.footer-pictures img {
   width: 10%;
-  padding-right: 1em;
-  display: inline-block;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  bottom: 0;
+  left: 50%;
+  padding: 1em 3em;
 }
 /*# sourceMappingURL=main.css.map */

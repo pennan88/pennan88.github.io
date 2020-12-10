@@ -39,24 +39,16 @@ header {
 section {
   margin-top: 70%;
   color: white;
+  text-align: center;
 }
 
-.footer-container{
-    position: absolute;
-    height: 100px;
+.footer-pictures {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+  img {
+    width: 10%;
+    left: 50%;
+    padding: 1em 3em;
+  }
 }
-
-ul.footer-pictures{
-bottom: 0;
-position: absolute;
-left: 50%;
-    img{
-        width: 10%;
-        padding-right: 1em;
-        display: inline-block;
-        justify-content: space-between;
-        bottom: 0;
-    }
-}
-
-
