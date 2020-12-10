@@ -46,7 +46,8 @@ section {
   padding-top: 45%;
 }
 
-section h1, section p {
+section h1,
+section p {
   text-align: center;
   color: white;
   font-size: 30px;
@@ -102,5 +103,58 @@ nav ul li a:hover {
 .exit-btn img {
   width: 15px;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 650px) {
+  section {
+    padding-top: 35%;
+  }
+  .footer-container img {
+    width: 8%;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .hide-desktop {
+    display: none;
+  }
+  .nav-container {
+    color: red;
+  }
+  nav ul {
+    text-align: center;
+    position: fixed;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+  .show-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .show-desktop li, .show-desktop a {
+    background: none;
+    text-align: center;
+    padding-top: 13px;
+    padding-right: 5%;
+  }
+  .show-desktop li, .show-desktop a:hover {
+    background: none;
+  }
+  section {
+    padding: 20%;
+  }
+  section h1, section p {
+    font-size: 40px;
+  }
+  .footer-container img {
+    width: 7%;
+    padding: 1em 12%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

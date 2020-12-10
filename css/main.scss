@@ -36,16 +36,16 @@ header {
   margin-top: 25%;
 }
 
-section{
+section {
   text-align: center;
   padding-top: 45%;
 
-  h1,p {
+  h1,
+  p {
     text-align: center;
     color: white;
     font-size: 30px;
   }
-
 }
 .footer-container {
   position: absolute;
@@ -96,5 +96,69 @@ nav ul li a:hover {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 650px) {
+  section {
+    padding-top: 35%;
+  }
+
+  .footer-container {
+    img {
+      width: 8%;
+    }
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .hide-desktop {
+    display: none;
+  }
+
+  .nav-container {
+    color: red;
+  }
+
+  nav ul {
+    text-align: center;
+    position: fixed;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+
+  .show-desktop {
+    display: flex;
+    justify-content: space-between;
+
+    li,a {
+      background: none;
+      text-align: center;
+      padding-top: 13px;
+      padding-right: 5%;
+    }
+
+    li,a:hover {
+      background: none;
+    }
+  }
+
+  section{
+    padding: 20%;
+
+    h1, p {
+      font-size: 40px;
+    }
+  }
+
+  .footer-container{
+    img{
+      width: 7%;
+      padding: 1em 12%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  
 }
