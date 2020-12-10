@@ -19,7 +19,6 @@ ul {
 header {
   display: flex;
   justify-content: space-between;
- 
 }
 
 .hide-mobile {
@@ -56,7 +55,7 @@ section {
   img {
     display: inline-block;
     justify-content: space-between;
-    width: 5%;
+    width: 8%;
     padding: 2% 10%;
   }
 }
@@ -104,62 +103,73 @@ nav ul li a:hover {
 
   .footer-container {
     img {
-      width: 8%;
+      width: 7%;
     }
   }
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 850px) {
+  .nav-container {
+    color: red;
+    margin: 0;
+    padding: 0;
+  }
+  .home {
+    padding: .5em;
+    font-size: 30px;
+  }
+
+  .show-desktop {
+    display: block;
+    margin: 0 auto 13% auto;
+  }
+
   .hide-desktop {
     display: none;
   }
 
-  .nav-container {
-    color: red;
-  }
-
   nav ul {
-    text-align: center;
-    position: fixed;
-    width: 60%;
-    margin: 0;
-    padding: 0;
+    position: initial;
+    width: auto;
     background: none;
-  }
-
-  .show-desktop {
+    height: auto;
     display: flex;
-    justify-content: space-between;
-
-    li,a {
-      background: none;
-      text-align: center;
-      padding-top: 13px;
-      padding-right: 5%;
-    }
-
-    li,a:hover {
-      background: none;
-    }
+    padding-top: 0;
   }
 
-  section{
+  nav ul li{
+    float: left;
+  }
+
+  nav ul li a{
+    color:white;
+    text-align: left;
+    background-color: inherit;
+    padding: 1.5em 2em;
+  }
+
+  nav ul li a:hover{
+    background-color: inherit;
+  }
+  section {
     padding: 20%;
 
-    h1, p {
+    h1,
+    p {
       font-size: 40px;
     }
   }
 
-  .footer-container{
-    img{
-      width: 7%;
+  .footer-container {
+    img {
+      width: 6%;
       padding: 1em 12%;
     }
   }
 }
 
 @media only screen and (min-width: 1200px) {
-
-
+  .home {
+    font-size: 40px;
+  }
 }
