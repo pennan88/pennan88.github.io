@@ -42,9 +42,15 @@ header {
 }
 
 section {
-  margin-top: 70%;
-  color: white;
+  height: 500px;
   text-align: center;
+  padding-top: 250px;
+}
+
+section h1, section p {
+  text-align: center;
+  color: white;
+  font-size: 30px;
 }
 
 .footer-container {
