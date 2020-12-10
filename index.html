@@ -17,11 +17,12 @@
 
         <nav>
           <a href="#" class="hide-desktop">
-            <img src="images/menu.svg" alt="HamMenu" class="menu" />
+            <img src="images/menu.svg" alt="HamMenu" id="menu" class="menu" />
           </a>
-          <ul class="show-desktop hide-mobile">
-            <li class="exit-btn hide-desktop">
-              <img src="images/exit.svg" alt="exit" />
+
+          <ul class="show-desktop hide-mobile" id="nav">
+            <li id="exit" class="exit-btn hide-desktop">
+              <img src="images/exit.svg"  alt="exit-btn" />
             </li>
             <li><a href="#">Resume</a></li>
             <li><a href="#">About me</a></li>
@@ -29,6 +30,7 @@
             <li><a href="#">Project</a></li>
           </ul>
         </nav>
+
       </header>
     </div>
 
@@ -56,5 +58,21 @@
             </li>
           </ul>
         </div>
+
+        <script>
+          var menu = document.getElementById('menu')
+          var nav = document.getElementById('nav')
+          var exit = document.getElementById('exit')
+
+          menu.addEventListener('click', function(e){
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+          })
+
+          exit.addEventListener('click', function(e){
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+          })
+        </script>
   </body>
 </html>
