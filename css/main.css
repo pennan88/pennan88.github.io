@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+html {
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#090e4e), color-stop(30em, #43003e), to(#090e4e));
+  background: linear-gradient(to top, #090e4e, #43003e 30em, #090e4e);
+}
+
 body {
-  background-image: -webkit-gradient(linear, left top, right top, from(#090e4e), to(#43003e));
-  background-image: linear-gradient(to right, #090e4e, #43003e);
   margin: 0;
   font-family: "Quicksand", Arial;
 }
@@ -121,7 +125,7 @@ nav ul li a:hover {
     padding: 0;
   }
   .home {
-    padding: .5em;
+    padding: 0.5em;
     font-size: 30px;
   }
   .show-desktop {
