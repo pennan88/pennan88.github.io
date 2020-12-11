@@ -2,7 +2,7 @@
 
 html {
   height: 100%;
-  background: linear-gradient(to top, #090e4e,#43003e 30em,#090e4e);
+  background: linear-gradient(to top, #090e4e, #43003e 30em, #090e4e);
 }
 
 body {
@@ -121,7 +121,7 @@ nav ul li a:hover {
   }
   .home {
     padding: 0.5em;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .show-desktop {
@@ -151,6 +151,7 @@ nav ul li a:hover {
     text-align: left;
     background-color: inherit;
     padding: 1.5em 2em;
+    font-size: 15px;
   }
 
   nav ul li a:hover {
@@ -161,7 +162,7 @@ nav ul li a:hover {
 
     h1,
     p {
-      font-size: 40px;
+      font-size: 35px;
     }
   }
 
@@ -173,8 +174,69 @@ nav ul li a:hover {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   .home {
-    font-size: 40px;
+    font-size: 45px;
   }
+
+  section {
+    padding: 0;
+    margin-top: 11em;
+
+    h1 {
+      font-size: 45px;
+    }
+  }
+
+  .nav-container {
+    nav {
+      position: fixed;
+
+      ul {
+        margin: 0 10em;
+      }
+    }
+  }
+
+  nav ul li {
+    margin: 0;
+    padding: 0;
+    position: initial;
+  }
+
+  nav ul li a {
+    margin: 2em 1em;
+    padding: 0;
+    position: initial;
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+  }
+
+  .footer-container {
+   position: initial;
+   height: auto;
+   width: auto;
+   margin-bottom: 10%;
+  }
+
+  .footer-pictures {
+    padding: 0;
+    position: inherit;
+    height: auto;
+    width: auto;
+    bottom: 0;
+    li {
+      margin: 0;
+      padding: 0;
+      
+    }
+
+    img {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  
 }

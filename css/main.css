@@ -126,7 +126,7 @@ nav ul li a:hover {
   }
   .home {
     padding: 0.5em;
-    font-size: 30px;
+    font-size: 25px;
   }
   .show-desktop {
     display: block;
@@ -153,6 +153,7 @@ nav ul li a:hover {
     text-align: left;
     background-color: inherit;
     padding: 1.5em 2em;
+    font-size: 15px;
   }
   nav ul li a:hover {
     background-color: inherit;
@@ -162,7 +163,7 @@ nav ul li a:hover {
   }
   section h1,
   section p {
-    font-size: 40px;
+    font-size: 35px;
   }
   .footer-container img {
     width: 6%;
@@ -170,9 +171,60 @@ nav ul li a:hover {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   .home {
-    font-size: 40px;
+    font-size: 45px;
+  }
+  section {
+    padding: 0;
+    margin-top: 11em;
+  }
+  section h1 {
+    font-size: 45px;
+  }
+  .nav-container nav {
+    position: fixed;
+  }
+  .nav-container nav ul {
+    margin: 0 10em;
+  }
+  nav ul li {
+    margin: 0;
+    padding: 0;
+    position: initial;
+  }
+  nav ul li a {
+    margin: 2em 1em;
+    padding: 0;
+    position: initial;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1em;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer-container {
+    position: initial;
+    height: auto;
+    width: auto;
+    margin-bottom: 10%;
+  }
+  .footer-pictures {
+    padding: 0;
+    position: inherit;
+    height: auto;
+    width: auto;
+    bottom: 0;
+  }
+  .footer-pictures li {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-pictures img {
+    margin: 0;
+    padding: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
