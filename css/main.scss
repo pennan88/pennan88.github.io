@@ -214,29 +214,30 @@ nav ul li a:hover {
   }
 
   .footer-container {
-   position: initial;
-   height: auto;
-   width: auto;
-   margin-bottom: 10%;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   position: absolute;
   }
 
-  .footer-pictures {
+  .footer-pictures{
+    margin: 30;
     padding: 0;
-    position: inherit;
-    height: auto;
-    width: auto;
-    bottom: 0;
-    li {
-      margin: 0;
-      padding: 0;
-      
-    }
+    position: initial;
+    height: 100%;
+    width: 100%;
+  
 
+    li {
+      position: initial;
+      margin-left: 195%;
+      width: 100%;
+    }
     img {
       margin: 0;
-      padding: 0;
+      padding: 1em 2em;
+      width: 3em;
     }
   }
 
-  
 }
