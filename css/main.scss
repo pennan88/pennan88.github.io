@@ -2,11 +2,14 @@
 
 html {
   height: 100%;
+  width: auto;
   background: linear-gradient(to top,  #43003e, #090e4e 35em, #43003e);
 }
 
 body {
   margin: 0;
+  width: auto;
+  height: auto;
   font-family: "Quicksand", Arial;
 }
 
@@ -16,15 +19,20 @@ ul {
   padding: 0;
 }
 
-.nav-container {
-  text-align: center;
-  padding: 1em;
+.container {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 
-header {
+.nav-container {
   display: flex;
   height: auto;
   width: auto;
+  text-align: center;
+  padding: 1em;
   justify-content: space-between;
 }
 
@@ -43,12 +51,16 @@ header {
   margin-top: 25%;
 }
 
-section {
+.main-container {
+  position: fixed;
   text-align: center;
-  padding-top: 50%;
+  height: 100%;
+  width: auto;
+  top: 40%;
+  left: 30%;
 
-  h1,
-  p {
+  h1,p {
+    position: initial;
     text-align: center;
     color: white;
     font-size: 25px;
@@ -56,17 +68,23 @@ section {
   }
 }
 .footer-container {
-  position: absolute;
+  position: fixed;
   text-align: center;
-  bottom: 0;
+  bottom: 0; 
+}
+
+.footer-pictures {
+  position: initial;
 
   img {
-    display: inline-block;
-    justify-content: space-between;
-    width: 8%;
-    padding: 2% 10%;
+    top: 100%;
+    position: relative;
+    width: 10%;
+    padding: .5em 3em;
   }
 }
+
+
 nav ul {
   position: fixed;
   width: 50%;

@@ -8,10 +8,11 @@
   </head>
 
   <body>
-
-    <div class="nav-container">
-      <header>
-        <a class="home" href="index.html"><img src="images/logofinal3White.svg" alt="logo"></a>
+    <div class="container">
+      <div class="nav-container">
+        <a class="home" href="index.html"
+          ><img src="images/logofinal3White.svg" alt="logo"
+        /></a>
 
         <nav>
           <a href="#" class="hide-desktop">
@@ -20,7 +21,7 @@
 
           <ul class="show-desktop hide-mobile" id="nav">
             <li id="exit" class="exit-btn hide-desktop">
-              <img src="images/exit.svg"  alt="exit-btn" />
+              <img src="images/exit.svg" alt="exit-btn" />
             </li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">About me</a></li>
@@ -28,47 +29,53 @@
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
-
-      </header>
+      </div>
     </div>
 
-    <section>
+    <div class="container">
+      <div class="main-container">
         <h1>Alexander Fagrelius</h1>
         <p>Web Developer</p>
-      </section>
+      </div>
+    </div>
 
+    <div class="container">
       <div class="footer-container">
-          <ul class="footer-pictures">
-            <li>
-              <a target="blank" href="https://www.linkedin.com/in/alexander-fagrelius-b0878b1a8/"
-                ><img src="images/010-linkedin.svg"  alt="linkedinLogo"
-              /></a>
+        <ul class="footer-pictures">
+          <li>
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/alexander-fagrelius-b0878b1a8/"
+              ><img src="images/010-linkedin.svg" alt="linkedinLogo"
+            /></a>
 
-              <a target="blank" href="https://www.facebook.com/Winkkey"
-                ><img src="images/001-facebook.svg" alt="linkedinLogo"
-              /></a>
+            <a target="blank" href="https://www.facebook.com/Winkkey"
+              ><img src="images/001-facebook.svg" alt="linkedinLogo"
+            /></a>
 
-              <a target="blank" href="https://www.instagram.com/alexanderfagrelius/"
-                ><img src="images/011-instagram.svg" alt="linkedinLogo"
-              /></a>
-            </li>
-          </ul>
-        </div>
+            <a
+              target="blank"
+              href="https://www.instagram.com/alexanderfagrelius/"
+              ><img src="images/011-instagram.svg" alt="linkedinLogo"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      var menu = document.getElementById("menu");
+      var nav = document.getElementById("nav");
+      var exit = document.getElementById("exit");
 
-        <script>
-          var menu = document.getElementById('menu')
-          var nav = document.getElementById('nav')
-          var exit = document.getElementById('exit')
+      menu.addEventListener("click", function (e) {
+        nav.classList.toggle("hide-mobile");
+        e.preventDefault();
+      });
 
-          menu.addEventListener('click', function(e){
-            nav.classList.toggle('hide-mobile');
-            e.preventDefault();
-          })
-
-          exit.addEventListener('click', function(e){
-            nav.classList.add('hide-mobile');
-            e.preventDefault();
-          })
-        </script>
+      exit.addEventListener("click", function (e) {
+        nav.classList.add("hide-mobile");
+        e.preventDefault();
+      });
+    </script>
   </body>
 </html>
