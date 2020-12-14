@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67.5" height="53.715" viewBox="0 0 67.5 53.715">
+  <g id="lOGOFinal" transform="translate(-54 -16.285)">
+    <line id="Line_1" data-name="Line 1" y1="40" x2="19" transform="translate(55.5 16.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_2" data-name="Line 2" y1="28" x2="13" transform="translate(61.5 28.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_3" data-name="Line 3" x1="11" y1="28" transform="translate(74.5 28.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_4" data-name="Line 4" x1="17" y1="40" transform="translate(74.5 16.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_5" data-name="Line 5" y1="39" transform="translate(101.5 17.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_6" data-name="Line 6" y1="39" transform="translate(107.5 17.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_7" data-name="Line 7" x1="21" transform="translate(100.5 17.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="Alexander_Fagrelius" data-name="Alexander Fagrelius" transform="translate(54 68)" fill="#707070" font-size="8" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">Alexander Fagrelius</tspan></text>
+    <line id="Line_8" data-name="Line 8" x1="17" transform="translate(101.5 38.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_9" data-name="Line 9" x1="20" transform="translate(64.5 38.5)" fill="none" stroke="#707070" stroke-width="1"/>
+  </g>
+</svg>
