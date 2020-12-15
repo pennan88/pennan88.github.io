@@ -210,11 +210,11 @@ a {
   height: 50px;
   width: 50px;
   margin: 0 30px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 #footer .social-item img {
-  width: 3em;
+  width: 2em;
 }
 
 .brand img {
@@ -243,6 +243,9 @@ a {
     #header .hamburger {
         transform: scale(0.8);
     }
+    #footer .social-item img {
+        width: 3em;
+      }
 
     #header .nav-list ul a {
         font-size: 2rem;
