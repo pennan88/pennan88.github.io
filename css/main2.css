@@ -76,7 +76,7 @@ a {
 }
 
 #header .nav-list ul a {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.3rem;
   text-decoration: none;
@@ -101,7 +101,7 @@ a {
   align-items: center;
   justify-content: center;
   z-index: 100;
-  transform: scale(0.8);
+  transform: scale(0.5);
   margin-right:  20px;
   cursor: pointer;
 }
@@ -191,7 +191,7 @@ a {
 /* footer */
 
 #footer {
-  background: linear-gradient(to top, #000000, #434343);
+    background-color:  rgb(47, 35, 35);
 }
 
 #footer .social-icon {
@@ -240,6 +240,14 @@ a {
 /* Media query tablet */
 
 @media only screen and (min-width: 780px) {
+    #header .hamburger {
+        transform: scale(0.8);
+    }
+
+    #header .nav-list ul a {
+        font-size: 2rem;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
