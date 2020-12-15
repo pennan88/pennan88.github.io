@@ -3,79 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alexander Fagrelius</title>
-    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main2.css" />
   </head>
-
   <body>
-    <div class="container">
-      <div class="nav-container">
-        <a class="home" href="index.html"
-          ><img src="images/logofinal3White.svg" alt="logo"
-        /></a>
-
-        <nav>
-          <a href="#" class="hide-desktop">
-            <img src="images/menu.svg" alt="HamMenu" id="menu" class="menu" />
-          </a>
-
-          <ul class="show-desktop hide-mobile" id="nav">
-            <li id="exit" class="exit-btn hide-desktop">
-              <img src="images/exit.svg" alt="exit-btn" />
-            </li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Resumé</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="main-container">
-        <h1>Alexander Fagrelius</h1>
-        <p>Web Developer</p>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="footer-container">
-        <ul class="footer-pictures">
-          <li>
-            <a
-              target="blank"
-              href="https://www.linkedin.com/in/alexander-fagrelius-b0878b1a8/"
-              ><img src="images/010-linkedin.svg" alt="linkedinLogo"
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="index.html"
+              ><img src="images/logofinal3White.svg" alt="Logo"
             /></a>
-
-            <a target="blank" href="https://www.facebook.com/Winkkey"
-              ><img src="images/001-facebook.svg" alt="linkedinLogo"
-            /></a>
-
-            <a
-              target="blank"
-              href="https://www.instagram.com/alexanderfagrelius/"
-              ><img src="images/011-instagram.svg" alt="linkedinLogo"
-            /></a>
-          </li>
-        </ul>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">About me</a></li>
+              <li><a href="#">Resumé</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-    <script>
-      var menu = document.getElementById("menu");
-      var nav = document.getElementById("nav");
-      var exit = document.getElementById("exit");
+    </section>
 
-      menu.addEventListener("click", function (e) {
-        nav.classList.toggle("hide-mobile");
-        e.preventDefault();
-      });
+    <section id="hero">
+      <div class="hero container">
+        <div>
+          <h1>Alexander Fagrelius</h1>
+          <h2>Web Developer</h2>
+          <a href="#" type="button" class="cta">Hire Me!</a>
+        </div>
+      </div>
+    </section>
 
-      exit.addEventListener("click", function (e) {
-        nav.classList.add("hide-mobile");
-        e.preventDefault();
-      });
-    </script>
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand"><img src="images/logofinal3White.svg" alt="" /></div>
+        <div class="social">
+          <div class="social-icon">
+            <div class="social-item">
+              <a
+                href="https://www.instagram.com/alexanderfagrelius/"
+                target="blank"
+                ><img src="images/011-instagram.svg" alt=""
+              /></a>
+            </div>
+            <div class="social-item">
+              <a href="https://www.facebook.com/Winkkey" target="blank"
+                ><img src="images/001-facebook.svg" alt=""
+              /></a>
+            </div>
+            <div class="social-item">
+              <a
+                href="https://www.linkedin.com/in/alexander-fagrelius-b0878b1a8/"
+                target="blank"
+                ><img src="images/010-linkedin.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
   </body>
 </html>
