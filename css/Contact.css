@@ -151,8 +151,9 @@
 
   /* hero*/
  
-  
-  /* Add a background color and some padding around the form */
+  #hero .hero img {
+    width: 90%
+  } 
 
   /* end hero*/
 
